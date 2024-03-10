@@ -1,0 +1,4 @@
+{
+    "cmake.configureOnOpen": false,
+    "idf.port": "/dev/cu.usbmodem01"
+}

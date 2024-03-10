@@ -89,7 +89,7 @@ While the CoXY board was designed to reproduce a setup for Soil Respiration Cham
 <tr>
 
 <td align = "left" width = 90% colspan=2>
-**PARTS** 
+<b>PARTS</b>
 <br><br>
 The test bed of choice for CoXY comprises:
 

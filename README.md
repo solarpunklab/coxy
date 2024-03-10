@@ -136,6 +136,15 @@ DALLAS DS18b20 "one-wire" Temperature sensor</a>
 SSD1306 - 128x64 - I2C OLED display</a>
 <br><br>
 
+<hr>
+
+CoXY BOARD is a PCB designed by TeZ and currently in testing phase. More details and photos will be published soon.
+
+<img src="images/coxy-board-front.jpg">
+<br>
+<img src="images/coxy-board-back.jpg">
+<br><br>
+
 <br><br>
 <a href="#contents"><img src="images/back.png" alt="Logo" width = 100%></A>
 <br>

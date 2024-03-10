@@ -164,9 +164,21 @@ In order to simultaneously work with different languages and many different Ardu
 <br>
 VS-CODE environment
 <br><br>
-All files of this app are served (or created and stored in real-time) directly from the SPIFFS internal memory of the ESP32. That includes the main index.html page, the javascript code and libraries, the css and json codes.
+All files of this app are served (or created and stored in real-time) directly from the SPIFFS internal memory of the ESP32. That includes the main index.html page, the javascript code and libraries, css and json codes, images and fonts files.
+<br><br>
+<img src="images/files-system-image.png">
+<br><br>
+In this application the SPIFFS file occupy about 1/3 ot the total available memory. 
 <br><br>
 <img src="images/coxy-spiffs.png">
+<br><br>
+The esp32 sketch files "main.cpp" and "NETWORK.h" must be uploaded clicking on the arrow icon on the top right of VS-CODE window.
+<br><br>
+<img src="images/files-cpp.png">
+<br><br>
+Once SPIFFS and sketch files are uploaded to the ESP32, and the board has connected to a local WiFi network (or it has created its own "COXY-NET" access point) we can point our browser to the URL http://coxy.local
+<br><br>
+<img src="images/coxy-local.png">
 <br><br>
 By clicking on the S icon or hitting the 's' key the SPIFFS memory popup will open to show that status of the spiffs internal memory and the currently stored and served files.
 <br><br>

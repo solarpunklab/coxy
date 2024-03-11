@@ -103,7 +103,7 @@ The test bed of choice for CoXY comprises:
 <li> SSD1306 - 128x64 - I2C OLED display
 </ul>
 
-All parts are "optional" and can be excluded from the setup by simply commenting the #define statements in the Arduino .cpp code. 
+All parts are "optional" and can be excluded from the setup by simply commenting the #define statements in the main.cpp code. 
 <br><br>
 The <a href="https://github.com/GenericLab/UROS-CO2_brkout">UROS breakout</a> board was kindly provided by Marc to support the development of this project and it features also an optional connection to a NEOPIXEL rgb led unit.
 <br><br>

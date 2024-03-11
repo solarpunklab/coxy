@@ -42,7 +42,7 @@ The concept arose from the collaborative efforts of Marc Dusseiller Dusjagr  and
 <br><br>
 <img src="images/src-hackteria-gosh.png">
 <br><br>
-TeZ and Marc reconstructed a prototype of the SRC at Solarpunk Lab headquarters in Amsterdam. Subsequently, TeZ embarked on experimenting with an expanded version, aiming to incorporate local sensor data monitoring via WiFi/websockets technology and mechanical parts control using motors. 
+TeZ and Marc reconstructed a SRC prototype at Solarpunk Lab headquarters in Amsterdam. Subsequently, TeZ embarked on experimenting with an expanded version, aiming to incorporate local sensor data monitoring via WiFi/websockets technology and mechanical parts control using motors. 
 <br><br>
 <img src="images/tez-src-ams-mix.png">
 <br>

@@ -13,9 +13,9 @@
 <details open>
   <summary style="background-color: #aaa;"><b>CONTENTS</b></summary>
   <ul>
-	<li><a href="#about">ABOUT CoXY <br><br></a></li>
-	<li><a href="#coxy-hardware">CoXY hardware <br><br></a></li>
-	<li><a href="#coxy-software">CoXY Sofwtare <br><br></a></li>
+	<li><a href="#about">About CoXY <br></a></li>
+	<li><a href="#coxy-hardware">CoXY Hardware <br></a></li>
+	<li><a href="#coxy-software">CoXY Sofwtare <br></a></li>
   </ul>
   </details>
 </div>

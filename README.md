@@ -167,7 +167,7 @@ The CoXY KONTROL software is a web app served by the ESP32 developed as a combin
 <br>
 CoXY KONTROL dashboard
 <br><br>
-In order to simultaneously work with different languages and many different Arduino and Javascript libraries, VS-CODE / Platform IO was chosen as development environment. This way all the code base can be easily copied, edited and transferred at once without the need of re-configuration.
+In order to simplify the simultaneous coding with different languages and many Arduino and Javascript libraries, VS-CODE / Platform IO was chosen as development environment. This way all the code base can be easily copied, edited and transferred at once without the need of re-configuration.
 <br><br>
 <img src="images/vscode.png">
 <br>

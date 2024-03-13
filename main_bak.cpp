@@ -5,8 +5,16 @@
 #include <ArduinoJson.h>    
 #include <Preferences.h>
 #include <SPIFFS.h>
+#include <Stepper.h>
 #include <Wire.h>
+#include <SensirionI2CScd4x.h>
+#include <Wire.h>
+#include <Adafruit_GFX.h>
+#include <Adafruit_SSD1306.h>
 #include <Adafruit_Sensor.h>
+#include <Adafruit_BME680.h>
+#include <OneWire.h>
+#include <DallasTemperature.h>
 
 #define INLED 15 // LOLIN S2 MINI ONBOARD LED
 
@@ -15,14 +23,11 @@
 
 #define BME680_ // comment if BME680 sensor is not used
 #ifdef BME680_ 
-  #include <Adafruit_BME680.h>
   Adafruit_BME680 bme; // BME680 sensor I2C
 #endif
 
 #define DALLAS_ // comment if  DS18B20 DALLAS TEMP SENSOR sensor is not used
 #ifdef DALLAS_ 
-  #include <DallasTemperature.h>
-  #include <OneWire.h>
   #define ONE_WIRE_BUS 12 
   OneWire oneWire(ONE_WIRE_BUS);
   DallasTemperature dallas(&oneWire); // create DS18B20 sensor instance
@@ -30,7 +35,6 @@
 
 #define SENSIRION_ // comment if SCD41x sensor is not used
 #ifdef SENSIRION_
-  #include <SensirionI2CScd4x.h>  
   SensirionI2CScd4x scd4x; // create sensirion sensor instance
   // https://github.com/Sensirion/arduino-i2c-scd4x
   uint16_t alt = 9; // AMSTERDAM // local altitude in meters above sea level
@@ -41,8 +45,6 @@
 
 #define OLED_ // comment if SSD1306 OLED displayis not used
 #ifdef OLED_ 
-  #include <Adafruit_GFX.h>
-  #include <Adafruit_SSD1306.h>
   #define OLED_RESET 17
   #define SCREEN_WIDTH 128 
   #define SCREEN_HEIGHT 64 
@@ -59,7 +61,6 @@
 
 #define MOTOR_
 #ifdef MOTOR_
-  #include <Stepper.h>
   const int stepsPerRevolution = 600;  // number of steps per revolution
   const int endstopPin = 9;  // endstop pin
   // ULN2003 Motor Driver Pins

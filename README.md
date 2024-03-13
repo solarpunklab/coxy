@@ -173,11 +173,15 @@ In order to simultaneously work with different languages and many different Ardu
 <br>
 VS-CODE environment
 <br><br>
+<img src="images/platformio.png">
+<br>
+Make sure you have PLATTFORMIO extension installed in your VS-CODE editor.
+<br><br>
 All files of this app are served (or created and stored in real-time) directly from the SPIFFS internal memory of the ESP32. That includes the main index.html page, the javascript code and libraries, css and json codes, images and fonts assets.
 <br><br>
 <img src="images/files-system-image.png">
 <br><br>
-In this application the SPIFFS file occupy about 1/3 ot the total available memory. 
+In this application the SPIFFS files occupy about 1/3 ot the total available memory. 
 <br><br>
 <img src="images/coxy-spiffs.png">
 <br><br>

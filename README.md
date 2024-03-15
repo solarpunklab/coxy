@@ -143,11 +143,26 @@ CoXY BOARD is a PCB designed by TeZ and currently in testing phase. More details
 <img src="images/coxy-board-front.jpg">
 <br>
 <img src="images/coxy-board-back.jpg">
+<br>
+<img src="images/coxy-gpios.png">
+<br><br>
+<img src="images/coxy-assembly-01.png">
+<br><br>
+<img src="images/coxy-assembly-02.png">
+<br><br>
+<img src="images/coxy-assembly-03.png">
+<br><br>
+<img src="images/coxy-assembly-04.png">
+<br><br>
+<img src="images/coxy-assembly-05.png">
+<br><br>
+<img src="images/coxy-assembly-06.png">
 <br><br>
 
 <br><br>
 <a href="#contents"><img src="images/back.png" alt="Logo" width = 100%></A>
 <br>
+
 
 </td>
 <br>

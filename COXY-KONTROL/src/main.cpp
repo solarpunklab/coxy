@@ -23,7 +23,7 @@
 #ifdef DALLAS_ 
   #include <DallasTemperature.h>
   #include <OneWire.h>
-  #define ONE_WIRE_BUS 17 // 12 
+  #define ONE_WIRE_BUS 17 // 
   OneWire oneWire(ONE_WIRE_BUS);
   DallasTemperature dallas(&oneWire); // create DS18B20 sensor instance
 #endif

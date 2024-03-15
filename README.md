@@ -220,16 +220,18 @@ A progress bar shows the countdown at each reading cycle.
 <br><br>
 Data visualization is done via javascript on span elements for all sensors, except the SCD41's Co2 level, Temperature and Humidity that are shown via <a href="https://github.com/highcharts/highcharts">highcharts javascript library</a> featuring interactive data display.
 <br><br>
-<img src="images/datalog-win.png">
-<br><br>
-A data log file with all the readings for the SCD41 is progressively saved in datalog.json file in the SPIFFS until the remaining inernal memory reaches a safety limit of 20kb. The json file can be downloaded locally by clicking on the datalog button.
-<br><br>
-<img src="images/datalog-json.jpg">
-<br><br>
 <a href="https://github.com/highcharts/highcharts"><img src="images/highcharts.png"></a>
 <br><br>
 <img src="images/coxy-highchart-data.png">
 <br><br>
+
+<br><br>
+A data log file with all the readings for the SCD41 is progressively saved in datalog.json file in the SPIFFS until the remaining inernal memory reaches a safety limit of 20kb. The json file can be downloaded locally by clicking on the datalog button.
+<br><br>
+<img src="images/datalog-win.png">
+<br><br>
+<img src="images/datalog-json.jpg">
+<br>
 <a href="#contents"><img src="images/back.png" alt="Logo" width = 100%></A>
 <br>
 </tr>

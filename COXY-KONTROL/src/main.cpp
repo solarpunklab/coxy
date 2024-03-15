@@ -23,7 +23,7 @@
 #ifdef DALLAS_ 
   #include <DallasTemperature.h>
   #include <OneWire.h>
-  #define ONE_WIRE_BUS 12 
+  #define ONE_WIRE_BUS 17 // 12 
   OneWire oneWire(ONE_WIRE_BUS);
   DallasTemperature dallas(&oneWire); // create DS18B20 sensor instance
 #endif
@@ -63,10 +63,10 @@
   const int stepsPerRevolution = 600;  // number of steps per revolution
   const int endstopPin = 9;  // endstop pin
   // ULN2003 Motor Driver Pins
-  #define IN1 35 
-  #define IN2 33 
-  #define IN3 18 
-  #define IN4 16 
+  #define IN1 1 // 35 
+  #define IN2 2 // 33 
+  #define IN3 3 // 18 
+  #define IN4 4 // 16 
   Stepper myStepper(stepsPerRevolution, IN1, IN3, IN2, IN4);
 #endif
 

@@ -39,6 +39,10 @@ void connectToWiFi() {
     delay(500);
     Serial.print(".");
     attempts++;
+    digitalWrite(LED_BUILTIN, HIGH);
+    delay(50);
+    digitalWrite(LED_BUILTIN, LOW);
+    delay(50);
   }
 
   if (WiFi.status() == WL_CONNECTED) {
@@ -110,6 +114,8 @@ void createAccessPoint() {
 
   current_SSID = apSSID;
 
+  digitalWrite(LED_BUILTIN, HIGH);
+  
   // Initialize mDNS
   if (MDNS.begin(apHostname)) {
     Serial.println("mDNS responder started");

@@ -157,8 +157,12 @@ CoXY BOARD is a PCB designed by TeZ and currently in testing phase. More details
 <img src="images/coxy-assembly-05.png">
 <br><br>
 <img src="images/coxy-assembly-06.png">
-<br><br>
-
+<br>
+<hr>
+<br>
+<a href="STL/CoxyBoxy.stl" target="3d"><img src="images/coxy-box-stl-01.png"></A>
+<br>
+<a href="STL/CoxyBoxy-top.stl" target="3d"><img src="images/coxy-box-stl-02.png"></A>
 <br><br>
 <a href="#contents"><img src="images/back.png" alt="Logo" width = 100%></A>
 <br>
@@ -232,6 +236,8 @@ A data log file with all the readings for the SCD41 is progressively saved in da
 <br><br>
 <img src="images/datalog-json.jpg">
 <br>
+
+
 <a href="#contents"><img src="images/back.png" alt="Logo" width = 100%></A>
 <br>
 </tr>

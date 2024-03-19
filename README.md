@@ -122,7 +122,10 @@ ULN2803  - Bipolar (BJT) Transistor Array 8 NPN Darlington 50V 500mA </a>
 SCD41  I2C Carbon Dioxide, Temperature And Humidity sensor</a>
 <br><br>
 <a href="https://github.com/GenericLab/UROS-CO2_brkout"><img src="images/uros-brk.png"><br>
-SCD41 UROS breakout</a>
+first SCD41 UROS breakout</a>
+<br><br>
+<a href="https://github.com/solarpunklab/coxy/tree/main/PCB/CO2Y-brkout"><img src="images/CO2Y-board.png"><br>
+ new SCD41 CO2Y breakout</a> designed by TeZ and Marc in 2024
 <br><br>
 <a href="https://nl.aliexpress.com/item/1005001602441073.html"><img src="images/BME680.png"><br>
 BME680 Digital Temperature, Humidity, Pressure, Gas Sensor </a>

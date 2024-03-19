@@ -1,0 +1,581 @@
+(export 
+  (version D) 
+  (design 
+    (source "/home/dusjagr/Documents/Hackteria/mega/Projects/2021_Projects/konS Maribor/UROS-Projects/CO2_SoilRespiration/hardware/Kicad/UROS_CO2_brkout/UROS_CO2-brkout.sch") 
+    (date "Do 07 Okt 2021 22:55:21") 
+    (tool "Eeschema 5.1.10-88a1d61d58~90~ubuntu20.04.1") 
+    (sheet 
+      (number 1) 
+      (name /) 
+      (tstamps /) 
+      (title_block 
+        (title) 
+        (company) 
+        (rev) 
+        (date) 
+        (source CO2Y-brkout.sch) 
+        (comment 
+          (number 1) 
+          (value "")) 
+        (comment 
+          (number 2) 
+          (value "")) 
+        (comment 
+          (number 3) 
+          (value "")) 
+        (comment 
+          (number 4) 
+          (value ""))))) 
+  (components 
+    (comp 
+      (ref U1) 
+      (value SCD41) 
+      (footprint UROS_SCD41_footprints:SCD41_3D) 
+      (libsource 
+        (lib UROS_CO2-brkout-rescue) 
+        (part SCD40-D-R2-Grove_-_CO2_&_Temperature_&_Humidity_Sensor_-_SCD41_V1.01-eagle-import-SCD41_V01_exported-rescue) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 615EF61B)) 
+    (comp 
+      (ref R1) 
+      (value 10k) 
+      (footprint UROS_SCD41_footprints:R_1206_HandSolder) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R) 
+        (description Resistor)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 615F9576)) 
+    (comp 
+      (ref R2) 
+      (value 10k) 
+      (footprint UROS_SCD41_footprints:R_1206_HandSolder) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R) 
+        (description Resistor)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 615F983B)) 
+    (comp 
+      (ref J2) 
+      (value Conn_01x04) 
+      (footprint UROS_SCD41_footprints:HEADER-4P_new) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector_Generic) 
+        (part Conn_01x04) 
+        (description "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 615FDB4B)) 
+    (comp 
+      (ref J1) 
+      (value GROVE_4P) 
+      (footprint UROS_SCD41_footprints:GROVE_4P-2.0_SMD_HOR) 
+      (libsource 
+        (lib UROS_CO2-brkout-rescue) 
+        (part GROVE_4P-2.0\SMD\FEMALE-HORIZONTAL-Grove_-_CO2_&_Temperature_&_Humidity_Sensor_-_SCD41_V1.01-eagle-import-SCD41_V01_exported-rescue) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 615FFEEC)) 
+    (comp 
+      (ref CONN1) 
+      (value Adafruit_SCD-41-eagle-import_STEMMA_I2C_QT) 
+      (footprint UROS_SCD41_footprints:JST_SH4_3D) 
+      (libsource 
+        (lib UROS_CO2-brkout-rescue) 
+        (part Adafruit_SCD-41-eagle-import_STEMMA_I2C_QT-Adafruit_SCD-41_exported-cache) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 615EE8F3)) 
+    (comp 
+      (ref Board1) 
+      (value EdgeCut) 
+      (footprint UROS_SCD41_footprints:UROS_SCD41_edge) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector_Generic) 
+        (part Conn_01x01) 
+        (description "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 615F3DA9)) 
+    (comp 
+      (ref Board2) 
+      (value Front) 
+      (footprint UROS_SCD41_footprints:UROS_SCD41_frontLogos) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector_Generic) 
+        (part Conn_01x01) 
+        (description "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 615FD773)) 
+    (comp 
+      (ref Board3) 
+      (value Back) 
+      (footprint UROS_SCD41_footprints:UROS_SCD41_backside) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector_Generic) 
+        (part Conn_01x01) 
+        (description "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 615FDAF9)) 
+    (comp 
+      (ref R3) 
+      (value 10k) 
+      (footprint UROS_SCD41_footprints:R_1206_HandSolder) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R) 
+        (description Resistor)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 616016D7)) 
+    (comp 
+      (ref D1) 
+      (value LED) 
+      (footprint UROS_SCD41_footprints:LED_0805_HandSolder) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part LED) 
+        (description "Light emitting diode")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6160B6EC)) 
+    (comp 
+      (ref D2) 
+      (value WS2812B) 
+      (footprint UROS_SCD41_footprints:NEO-Pixel_WS2812B) 
+      (datasheet https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf) 
+      (libsource 
+        (lib LED) 
+        (part WS2812B) 
+        (description "RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6161C412)) 
+    (comp 
+      (ref J3) 
+      (value Conn_01x01) 
+      (footprint UROS_SCD41_footprints:PinHeader_1x01) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector_Generic) 
+        (part Conn_01x01) 
+        (description "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 616268E7))) 
+  (libparts 
+    (libpart 
+      (lib Connector_Generic) 
+      (part Conn_01x01) 
+      (description "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)") 
+      (docs ~) 
+      (footprints 
+        (fp Connector*:*_1x??_*)) 
+      (fields 
+        (field 
+          (name Reference) J) 
+        (field 
+          (name Value) Conn_01x01)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name Pin_1) 
+          (type passive)))) 
+    (libpart 
+      (lib Connector_Generic) 
+      (part Conn_01x04) 
+      (description "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)") 
+      (docs ~) 
+      (footprints 
+        (fp Connector*:*_1x??_*)) 
+      (fields 
+        (field 
+          (name Reference) J) 
+        (field 
+          (name Value) Conn_01x04)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name Pin_1) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name Pin_2) 
+          (type passive)) 
+        (pin 
+          (num 3) 
+          (name Pin_3) 
+          (type passive)) 
+        (pin 
+          (num 4) 
+          (name Pin_4) 
+          (type passive)))) 
+    (libpart 
+      (lib Device) 
+      (part LED) 
+      (description "Light emitting diode") 
+      (docs ~) 
+      (footprints 
+        (fp LED*) 
+        (fp LED_SMD:*) 
+        (fp LED_THT:*)) 
+      (fields 
+        (field 
+          (name Reference) D) 
+        (field 
+          (name Value) LED)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name K) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name A) 
+          (type passive)))) 
+    (libpart 
+      (lib Device) 
+      (part R) 
+      (description Resistor) 
+      (docs ~) 
+      (footprints 
+        (fp R_*)) 
+      (fields 
+        (field 
+          (name Reference) R) 
+        (field 
+          (name Value) R)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name ~) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name ~) 
+          (type passive)))) 
+    (libpart 
+      (lib LED) 
+      (part WS2812B) 
+      (description "RGB LED with integrated controller") 
+      (docs https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf) 
+      (footprints 
+        (fp LED*WS2812*PLCC*5.0x5.0mm*P3.2mm*)) 
+      (fields 
+        (field 
+          (name Reference) D) 
+        (field 
+          (name Value) WS2812B) 
+        (field 
+          (name Footprint) LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name VDD) 
+          (type power_in)) 
+        (pin 
+          (num 2) 
+          (name DOUT) 
+          (type output)) 
+        (pin 
+          (num 3) 
+          (name VSS) 
+          (type power_in)) 
+        (pin 
+          (num 4) 
+          (name DIN) 
+          (type input)))) 
+    (libpart 
+      (lib UROS_CO2-brkout-rescue) 
+      (part Adafruit_SCD-41-eagle-import_STEMMA_I2C_QT-Adafruit_SCD-41_exported-cache) 
+      (fields 
+        (field 
+          (name Reference) CONN) 
+        (field 
+          (name Value) Adafruit_SCD-41-eagle-import_STEMMA_I2C_QT-Adafruit_SCD-41_exported-cache)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name GND) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name V+) 
+          (type passive)) 
+        (pin 
+          (num 3) 
+          (name SDA) 
+          (type passive)) 
+        (pin 
+          (num 4) 
+          (name SCL) 
+          (type passive)) 
+        (pin 
+          (num MT1) 
+          (name MT) 
+          (type BiDi)) 
+        (pin 
+          (num MT2) 
+          (name MT) 
+          (type BiDi)))) 
+    (libpart 
+      (lib UROS_CO2-brkout-rescue) 
+      (part GROVE_4P-2.0\SMD\FEMALE-HORIZONTAL-Grove_-_CO2_&_Temperature_&_Humidity_Sensor_-_SCD41_V1.01-eagle-import-SCD41_V01_exported-rescue) 
+      (fields 
+        (field 
+          (name Reference) J) 
+        (field 
+          (name Value) GROVE_4P-2.0\SMD\FEMALE-HORIZONTAL-Grove_-_CO2_&_Temperature_&_Humidity_Sensor_-_SCD41_V1.01-eagle-import-SCD41_V01_exported-rescue)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name 1) 
+          (type BiDi)) 
+        (pin 
+          (num 2) 
+          (name 2) 
+          (type BiDi)) 
+        (pin 
+          (num 3) 
+          (name 3) 
+          (type BiDi)) 
+        (pin 
+          (num 4) 
+          (name 4) 
+          (type BiDi)) 
+        (pin 
+          (num SS1) 
+          (name SS1) 
+          (type BiDi)) 
+        (pin 
+          (num SS2) 
+          (name SS2) 
+          (type BiDi)))) 
+    (libpart 
+      (lib UROS_CO2-brkout-rescue) 
+      (part SCD40-D-R2-Grove_-_CO2_&_Temperature_&_Humidity_Sensor_-_SCD41_V1.01-eagle-import-SCD41_V01_exported-rescue) 
+      (fields 
+        (field 
+          (name Reference) U) 
+        (field 
+          (name Value) SCD40-D-R2-Grove_-_CO2_&_Temperature_&_Humidity_Sensor_-_SCD41_V1.01-eagle-import-SCD41_V01_exported-rescue)) 
+      (pins 
+        (pin 
+          (num 6) 
+          (name VSS@1) 
+          (type BiDi)) 
+        (pin 
+          (num 7) 
+          (name VDD) 
+          (type BiDi)) 
+        (pin 
+          (num 9) 
+          (name SCL) 
+          (type BiDi)) 
+        (pin 
+          (num 10) 
+          (name SDA) 
+          (type BiDi)) 
+        (pin 
+          (num 19) 
+          (name VDDH) 
+          (type BiDi)) 
+        (pin 
+          (num 20) 
+          (name VSS@2) 
+          (type BiDi)) 
+        (pin 
+          (num 21) 
+          (name VSS@3) 
+          (type BiDi))))) 
+  (libraries 
+    (library 
+      (logical Connector_Generic) 
+      (uri /usr/share/kicad/library/Connector_Generic.lib)) 
+    (library 
+      (logical Device) 
+      (uri /usr/share/kicad/library/Device.lib)) 
+    (library 
+      (logical LED) 
+      (uri /usr/share/kicad/library/LED.lib)) 
+    (library 
+      (logical UROS_CO2-brkout-rescue) 
+      (uri "/home/dusjagr/Documents/Hackteria/mega/Projects/2021_Projects/konS Maribor/UROS-Projects/CO2_SoilRespiration/hardware/Kicad/UROS_CO2_brkout/UROS_CO2-brkout-rescue.lib"))) 
+  (nets 
+    (net 
+      (code 1) 
+      (name "Net-(Board1-Pad1)") 
+      (node 
+        (ref Board1) 
+        (pin 1))) 
+    (net 
+      (code 2) 
+      (name SDA) 
+      (node 
+        (ref J1) 
+        (pin 1)) 
+      (node 
+        (ref CONN1) 
+        (pin 4)) 
+      (node 
+        (ref J2) 
+        (pin 4)) 
+      (node 
+        (ref U1) 
+        (pin 10)) 
+      (node 
+        (ref R2) 
+        (pin 1))) 
+    (net 
+      (code 3) 
+      (name SCL) 
+      (node 
+        (ref J2) 
+        (pin 3)) 
+      (node 
+        (ref J1) 
+        (pin 2)) 
+      (node 
+        (ref U1) 
+        (pin 9)) 
+      (node 
+        (ref CONN1) 
+        (pin 3)) 
+      (node 
+        (ref R1) 
+        (pin 1))) 
+    (net 
+      (code 4) 
+      (name VCC) 
+      (node 
+        (ref J2) 
+        (pin 2)) 
+      (node 
+        (ref J1) 
+        (pin 3)) 
+      (node 
+        (ref U1) 
+        (pin 19)) 
+      (node 
+        (ref U1) 
+        (pin 7)) 
+      (node 
+        (ref D2) 
+        (pin 1)) 
+      (node 
+        (ref R1) 
+        (pin 2)) 
+      (node 
+        (ref D1) 
+        (pin 2)) 
+      (node 
+        (ref CONN1) 
+        (pin 2)) 
+      (node 
+        (ref R2) 
+        (pin 2))) 
+    (net 
+      (code 5) 
+      (name GND) 
+      (node 
+        (ref J2) 
+        (pin 1)) 
+      (node 
+        (ref U1) 
+        (pin 6)) 
+      (node 
+        (ref U1) 
+        (pin 21)) 
+      (node 
+        (ref U1) 
+        (pin 20)) 
+      (node 
+        (ref CONN1) 
+        (pin 1)) 
+      (node 
+        (ref J1) 
+        (pin 4)) 
+      (node 
+        (ref D2) 
+        (pin 3)) 
+      (node 
+        (ref R3) 
+        (pin 2))) 
+    (net 
+      (code 6) 
+      (name NEO_IN) 
+      (node 
+        (ref J3) 
+        (pin 1)) 
+      (node 
+        (ref D2) 
+        (pin 4))) 
+    (net 
+      (code 7) 
+      (name "Net-(D2-Pad2)") 
+      (node 
+        (ref D2) 
+        (pin 2))) 
+    (net 
+      (code 8) 
+      (name "Net-(D1-Pad1)") 
+      (node 
+        (ref D1) 
+        (pin 1)) 
+      (node 
+        (ref R3) 
+        (pin 1))) 
+    (net 
+      (code 9) 
+      (name "Net-(Board3-Pad1)") 
+      (node 
+        (ref Board3) 
+        (pin 1))) 
+    (net 
+      (code 10) 
+      (name "Net-(Board2-Pad1)") 
+      (node 
+        (ref Board2) 
+        (pin 1))) 
+    (net 
+      (code 11) 
+      (name "Net-(J1-PadSS2)") 
+      (node 
+        (ref J1) 
+        (pin SS2))) 
+    (net 
+      (code 12) 
+      (name "Net-(J1-PadSS1)") 
+      (node 
+        (ref J1) 
+        (pin SS1)))))

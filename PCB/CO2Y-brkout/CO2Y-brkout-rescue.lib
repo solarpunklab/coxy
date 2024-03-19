@@ -1,0 +1,68 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Adafruit_SCD-41-eagle-import_STEMMA_I2C_QT-Adafruit_SCD-41_exported-cache
+#
+DEF Adafruit_SCD-41-eagle-import_STEMMA_I2C_QT-Adafruit_SCD-41_exported-cache CONN 0 40 Y Y 3 L N
+F0 "CONN" -150 325 59 H I L BNN
+F1 "Adafruit_SCD-41-eagle-import_STEMMA_I2C_QT-Adafruit_SCD-41_exported-cache" -150 -300 59 H I L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -150 -200 150 -200 N
+P 2 1 0 0 -150 300 -150 -200 N
+P 2 1 0 0 150 -200 150 300 N
+P 2 1 0 0 150 300 -150 300 N
+X GND 1 0 200 100 R 0 50 1 0 P I
+X V+ 2 0 100 100 R 0 50 1 0 P I
+X SDA 3 0 0 100 R 0 50 1 0 P I
+X SCL 4 0 -100 100 R 0 50 1 0 P I
+X MT MT1 0 0 200 R 50 50 2 0 B
+X MT MT2 0 0 200 R 50 50 3 0 B
+ENDDRAW
+ENDDEF
+#
+# GROVE_4P-2.0\SMD\FEMALE-HORIZONTAL-Grove_-_CO2_&_Temperature_&_Humidity_Sensor_-_SCD41_V1.01-eagle-import-SCD41_V01_exported-rescue
+#
+DEF GROVE_4P-2.0\SMD\FEMALE-HORIZONTAL-Grove_-_CO2_&_Temperature_&_Humidity_Sensor_-_SCD41_V1.01-eagle-import-SCD41_V01_exported-rescue J 0 40 Y Y 1 L N
+F0 "J" -100 200 42 H V L BNN
+F1 "GROVE_4P-2.0\\SMD\\FEMALE-HORIZONTAL-Grove_-_CO2_&_Temperature_&_Humidity_Sensor_-_SCD41_V1.01-eagle-import-SCD41_V01_exported-rescue" 50 -150 42 V V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -100 -200 -100 200 N
+P 2 1 0 0 -100 200 100 200 N
+P 2 1 0 0 100 -200 -100 -200 N
+P 2 1 0 0 100 200 100 -200 N
+X 1 1 -200 150 200 R 0 0 1 0 B IC
+X 2 2 -200 50 200 R 0 0 1 0 B I
+X 3 3 -200 -50 200 R 0 0 1 0 B I
+X 4 4 -200 -150 200 R 0 0 1 0 B I
+X SS1 SS1 0 300 100 D 0 0 1 0 B
+X SS2 SS2 0 -300 100 U 0 0 1 0 B
+ENDDRAW
+ENDDEF
+#
+# SCD40-D-R2-Grove_-_CO2_&_Temperature_&_Humidity_Sensor_-_SCD41_V1.01-eagle-import-SCD41_V01_exported-rescue
+#
+DEF SCD40-D-R2-Grove_-_CO2_&_Temperature_&_Humidity_Sensor_-_SCD41_V1.01-eagle-import-SCD41_V01_exported-rescue U 0 40 Y Y 1 L N
+F0 "U" -200 600 59 H V L BNN
+F1 "SCD40-D-R2-Grove_-_CO2_&_Temperature_&_Humidity_Sensor_-_SCD41_V1.01-eagle-import-SCD41_V01_exported-rescue" -200 500 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -200 -500 -200 500 N
+P 2 1 0 0 -200 500 300 500 N
+P 2 1 0 0 300 -500 -200 -500 N
+P 2 1 0 0 300 500 300 -500 N
+X SDA 10 500 -400 200 L 50 50 1 0 B
+X VDDH 19 500 300 200 L 50 50 1 0 B
+X VSS@2 20 500 0 200 L 50 50 1 0 B
+X VSS@3 21 500 -100 200 L 50 50 1 0 B
+X VSS@1 6 500 100 200 L 50 50 1 0 B
+X VDD 7 500 400 200 L 50 50 1 0 B
+X SCL 9 500 -300 200 L 50 50 1 0 B
+ENDDRAW
+ENDDEF
+#
+#End Library
